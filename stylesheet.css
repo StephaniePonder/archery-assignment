@@ -10,7 +10,7 @@ body {
 /* Header/logo Title */
 .top-header {
   padding: 15px;
-  background: #03a3df;
+  background: #037EAA;
   display: flex;
   flex-wrap: wrap;
 }
@@ -28,14 +28,16 @@ body {
   font-family: Arial, helvetica, sans-serif;
   display: flex;
   flex-wrap: wrap;
-}
 
+}
+.tab-example {
+  width: 100%;
+}
 /* Style the navigation bar links */
 .top-navigation a {
   color: white;
   padding: 14px 20px;
   text-decoration: none;
-
 }
 
 /* Change color on hover */
@@ -83,7 +85,14 @@ h3 {
   padding: 20px;
   font-family: Arial, helvetica, sans-serif;
   font-size: 17px;
-
+}
+.hidden {
+  position: relative;
+  left: -1000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 0;
 }
 .schedule-layout {
   display: flex;
