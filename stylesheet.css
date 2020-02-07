@@ -147,7 +147,8 @@ footer {
   font-size: .8rem;
   display: inline;
   text-decoration: none;
-  padding: .4rem;
+  padding: .5rem;
+  margin: .5rem;
 
   }
 .footer-text {
